@@ -1,4 +1,6 @@
 [core]
     remote = default
+[hydra]
+    enabled = true
 ['remote "default"']
     url = ../../dvcremote

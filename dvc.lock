@@ -1,12 +1,9 @@
 schema: '2.0'
 stages:
   test:
-    cmd: cat params.yaml > out.yaml
+    cmd: cat params.yaml
     params:
       params.yaml:
-        a: 1
-        b: 2
-    outs:
-    - path: out.yaml
-      md5: 3bcde6d55b49cfbe526f991dbc7d53d9
-      size: 10
+        group:
+          a: 1
+          b: 1
